@@ -1,8 +1,19 @@
-<div class="">
 
-<section class="row pusher">
-      
-   
 
-</section> <!-- ENDS .row --> 
+<div ng-controller="CollapseDemoCtrl">
+	<button class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Depart Weather</button>
+	<hr>
+	<div collapse="isCollapsed">
+		<div class="well well-lg">Some content</div> 
+    <div class="well well-lg">Some content</div> 
+	</div>
+</div>
+
+<div ng-controller="CollapseDemoCtrl">
+  <button class="btn btn-default" ng-click="isCollapsed = !isCollapsed">Arrival Weather</button>
+  <hr>
+  <div collapse="isCollapsed">
+    <div class="well well-lg">Some content</div> 
+    <div class="well well-lg">Some content</div> 
+  </div>
 </div>
