@@ -28,12 +28,5 @@ demo.controller('DetailCtrl', [
 			commentRef.remove();
 		}
 
-		$scope.SearchTwitter = {
-			lat : $rootScope.dude.appendix.airports[0].latitude,
-            lon :  $rootScope.dude.appendix.airports[0].longitude,
-            miles : "10m"
-		}
-
-		console.log("TWITTER ", $scope.SearchTwitter);
 	} 
 ]);
