@@ -1,6 +1,17 @@
-<div ng-controller="DetailCtrl" class="pusher">
-  
-  <pre class="alert alert-info">Time is: {{mytime | date:'shortTime' }}</pre>
+<div style="" class="pusher">
+  <section class="col-sm-6">
+<div ng-controller="DetailCtrl">
+    
+    <h4>Triggers</h4>
+    <p>
+      <blockquote popover="YOOOOOOOOO" popover-trigger="mouseenter" class="btn btn-default">Mouseenter</blockquote>
+    </p>
+    <input type="text" value="Click me!" popover="I appeared on focus! Click away and I'll vanish..."  popover-trigger="focus" class="form-control">
 
-  
+    <hr />
+    <h4>Other</h4>
+    <button Popover-animation="true" popover="I fade in and out!" class="btn btn-default">fading</button>
+    <button popover="I have a title!" popover-title="The title." class="btn btn-default">title</button>
+  </section>
+</div>
 </div>
